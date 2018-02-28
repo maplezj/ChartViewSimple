@@ -24,7 +24,7 @@ public class HeartRateView extends View
     private float totalHeight = 0;
     private float marginSide = 0;
 
-    private int heartRate = 190;
+    private int heartRate = 0;
 
     private Paint paint;
 
@@ -77,7 +77,7 @@ public class HeartRateView extends View
         paint.reset();
         paint.setColor(Color.WHITE);
         paint.setStrokeWidth(3);
-        //两个刻度之间的距离,共91个刻度，90个间距
+        //两个刻度之间的距离,共46个刻度，45个间距
         float unit = (totalWidth - height-marginSide*2)/45;
         //刻度的高度
         float unitHeight = 15;
@@ -190,5 +190,6 @@ public class HeartRateView extends View
     public void setHeartRate(int heartRate)
     {
         this.heartRate = heartRate;
+        invalidate();
     }
 }

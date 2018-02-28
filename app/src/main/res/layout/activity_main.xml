@@ -9,6 +9,6 @@
     <com.example.zhaojian.chartviewsimple.HeartRateView
         android:layout_width="match_parent"
         android:layout_height="120dp"
-        android:background="@color/colorPrimaryDark"/>
+        android:id="@+id/heart_rate_view"/>
 
 </android.support.constraint.ConstraintLayout>

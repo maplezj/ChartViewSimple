@@ -11,5 +11,6 @@ public class MainActivity extends AppCompatActivity
     {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        ((HeartRateView)findViewById(R.id.heart_rate_view)).setHeartRate(110);
     }
 }
