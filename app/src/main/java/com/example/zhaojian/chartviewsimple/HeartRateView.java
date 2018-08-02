@@ -15,6 +15,7 @@ import android.view.View;
 
 /**
  * Created by zhaojian on 2018/2/27.
+ * test
  */
 
 public class HeartRateView extends View
